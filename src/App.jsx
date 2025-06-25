@@ -5,7 +5,7 @@ import './App.css'
 
 export default function App(){
 
-  const[tcolor, setTColor] = useState('000')
+  const[tcolor, setTColor] = useState('cococo')
   const[bgCol, setBgCol] = useState('000')
   const image = useRef()
 
@@ -34,8 +34,6 @@ export default function App(){
 
   return(
     <>
-
-
         <div className='heading'>
           <h1 id="heading">Font Fusion</h1>
         </div>
